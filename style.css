@@ -1,0 +1,100 @@
+body{
+    background-color:currentColor;
+}
+
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    /* margin-left: 20rem; */
+    justify-content: center;
+    font-size: xx-large;
+    height: 20vh;
+}
+
+.header:hover{
+    color:coral;
+    transform: scale(1.3);
+}
+
+.info{
+    color: white;
+    display: inline;
+    margin-top: 5rem;
+    margin-left: 43%;
+    font-size: x-large;
+}
+
+.info:hover{
+    color:cornflowerblue;
+    /* transform: scale(1.2); */
+    margin-bottom: 3rem;
+}
+
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+    background-color:black;
+    color: greenyellow;
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #323330;
+}
+
+.buttons > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:orange;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#equal{
+    background-color:cadetblue;
+    color: white;
+}
+
+#equal:hover{
+    background-color:green;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.footer{
+    color: white;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.icon:hover{
+    color: teal;
+    transform: scale(1.2);
+}
